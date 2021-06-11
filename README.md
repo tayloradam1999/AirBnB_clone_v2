@@ -9,7 +9,7 @@ This repository contains the second stage of a student project to build a clone 
 | Tasks | Files | Description |
 | ----- | ----- | ------ |
 | 0: Authors/README File | [AUTHORS](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/AUTHORS) | Project authors |
-| 1: Pep8/Unit Testing | [/tests](https://github.com/JakeFC/AirBnB_clone_v2/tree/dev/tests | All code is pep8 compliant and modules are unittested|
+| 1: Pep8/Unit Testing | [/tests](https://github.com/JakeFC/AirBnB_clone_v2/tree/dev/tests) | All code is pep8 compliant and modules are unittested|
 | 2: Console create | [console.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/console.py) | Added a kwargs-like method for creating objects |
 | 3. MySQL setup dev | [setup_mysql_dev.sql](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/setup_mysql_dev.sql) | Creates a database and user for db storage |
 | 4. MySQL setup test | [setup_mysql_test.sql](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/setup_mysql_test.sql) | Creates a database and user for db storage testing (no info is saved after console exit) |
