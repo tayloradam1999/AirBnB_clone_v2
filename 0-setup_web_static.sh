@@ -7,7 +7,7 @@ sudo mkdir -p /data/web_static/releases/test
 sudo mkdir -p /data/web_static/shared
 sudo touch /data/web_static/releases/test/index.html
 sudo echo "<html>\n\t<head></head>\n\t<body>Testing</body>\n</html>" | sudo tee /data/web_static/releases/test/index.html
-sudo mkdir -p /data/web_static/current
+
 sudo ln -sfn /data/web_static/releases/test /data/web_static/current
 sudo chown -hR ubuntu:ubuntu /data
 # editing nginx
