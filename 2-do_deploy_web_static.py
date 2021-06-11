@@ -24,7 +24,7 @@ def do_deploy(archive_path):
             archiveNameMinusExtension + " --strip-components=1")
         run("rm -f /tmp/" + archiveName)
         run("rm -f /data/web_static/current")
-        run("sudo ln -sf /data/web_static/releases/" + archiveNameMinusExtension + "/data/web_static/current")
+        run("sudo ln -sf /data/web_static/releases/" + archiveNameMinusExtension + " /data/web_static/current")
 
         return True
     except:
