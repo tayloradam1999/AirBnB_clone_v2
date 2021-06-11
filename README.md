@@ -8,13 +8,13 @@ This repository contains the second stage of a student project to build a clone 
 
 | Tasks | Files | Description |
 | ----- | ----- | ------ |
-| 0: Authors/README File | [AUTHORS](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/AUTHORS) | Project authors |
-| 1: Pep8/Unit Testing | [/tests](https://github.com/JakeFC/AirBnB_clone_v2/tree/dev/tests) | All code is pep8 compliant and modules are unittested|
-| 2: Console create | [console.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/console.py) | Added a kwargs-like method for creating objects |
+| 0: Authors/README File | [AUTHORS](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/AUTHORS) | Project authors |
+| 1: Pep8/Unit Testing | [/tests](https://github.com/JakeFC/AirBnB_clone_v2/tree/master/tests) | All code is pep8 compliant and modules are unittested|
+| 2: Console create | [console.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/console.py) | Added a kwargs-like method for creating objects |
 | 3. MySQL setup dev | [setup_mysql_dev.sql](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/setup_mysql_dev.sql) | Creates a database and user for db storage |
 | 4. MySQL setup test | [setup_mysql_test.sql](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/setup_mysql_test.sql) | Creates a database and user for db storage testing (no info is saved after console exit) |
-| 5. Delete object | [/models/engine/file_storage.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/models/engine/file_storage.py) | Updated file_storage with method to delete objects and updated all to accept class argument |
-| 6. DBStorage States and Cities | [/models/engine/db_storage.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/engine/db_storage.py) [/models/_ _init_ _.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/models/__init__.py) [/models/base_model.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/dev/models/base_model.py) [/models/city.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/city.py) [/models/state](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/state.py) | Implement sql database storage functionality to the console, using city and state |
+| 5. Delete object | [/models/engine/file_storage.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/engine/file_storage.py) | Updated file_storage with method to delete objects and updated all to accept class argument |
+| 6. DBStorage States and Cities | [/models/engine/db_storage.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/engine/db_storage.py) [/models/_ _init_ _.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/__init__.py) [/models/base_model.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/base_model.py) [/models/city.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/city.py) [/models/state](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/state.py) | Implement sql database storage functionality to the console, using city and state |
 | 7. DB User | [/models/user.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/user.py) | Update user class for db storage |
 | 8. DB Place | [/models/place.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/place.py) | Update place class for db storage |
 | 9. DB Review | [/models/review.py](https://github.com/JakeFC/AirBnB_clone_v2/blob/master/models/review.py) | Update review class for db storage |
