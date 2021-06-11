@@ -20,8 +20,8 @@ def do_deploy(archive_path):
 
         put(archive_path, '/tmp/' + archiveName)
         run("mkdir -p /data/web_static/releases/" + archiveNameMinusExtension)
-        run('tar -xzvf /tmp/' + archiveName + " -C /data/web_static/releases/\
-            " + archiveNameMinusExtension + " --strip-components=1")
+        run('tar -xzvf /tmp/' + archiveName + " -C /data/web_static/releases\
+            /" + archiveNameMinusExtension + " --strip-components=1")
         run("rm -f /tmp/" + archiveName)
         run("rm -f /data/web_static/current")
         run("sudo ln -sf /data/web_static/releases/" +
