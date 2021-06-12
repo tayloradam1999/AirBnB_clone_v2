@@ -1,5 +1,5 @@
-
-ring server for deployment
+#!/usr/bin/env bash
+# Preparing server for deployment
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
