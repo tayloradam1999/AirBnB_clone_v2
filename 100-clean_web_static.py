@@ -3,6 +3,7 @@
 
 from fabric.api import local, env, run
 import os
+import glob
 
 env.hosts = ['54.221.48.50', '3.85.236.151']
 
@@ -18,10 +19,12 @@ def do_clean(number=0):
         number = 1
 
     # removing local tar files
-    localFiles = os.listdir('versions')
+    # localFiles = os.listdir('versions')
+    localFiles = glob.glob('versions/*')
+    localFiles.sort(key=os.path.getmtime, reverse=True)
     for i, file in enumerate(localFiles):
         if i >= number:
-            local("sudo rm versions/" + file)
+            local("sudo rm " + file)
 
     # removing foreign unzipped directories
     foreignFiles = run("ls -t /data/web_static/releases").split()
